@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/modern-website/static/css/main.8c5557bf.css",
-    "main.js": "/modern-website/static/js/main.d78da0f5.js",
+    "main.js": "/modern-website/static/js/main.ee77020e.js",
     "index.html": "/modern-website/index.html",
     "main.8c5557bf.css.map": "/modern-website/static/css/main.8c5557bf.css.map",
-    "main.d78da0f5.js.map": "/modern-website/static/js/main.d78da0f5.js.map"
+    "main.ee77020e.js.map": "/modern-website/static/js/main.ee77020e.js.map"
   },
   "entrypoints": [
     "static/css/main.8c5557bf.css",
-    "static/js/main.d78da0f5.js"
+    "static/js/main.ee77020e.js"
   ]
 }
