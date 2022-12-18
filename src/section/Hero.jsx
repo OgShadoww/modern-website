@@ -6,6 +6,7 @@ const Hero = () => {
     return (
         <motion.div
             className='flex flex-col justify-center relative sm:py-16 xs:py-8 py-12 sm:pl-16 pl-6'
+            viewport={{once:true}}
             initial='hidden'
             whileInView="visible"
          >

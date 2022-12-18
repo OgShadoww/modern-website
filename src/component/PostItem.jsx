@@ -7,6 +7,7 @@ const PostItem = ({url, title, description, delay}) => {
         <motion.div
             className='flex md:flex-row flex-col gap-4 z-10' 
             variants={SlideUp(delay, 400)}
+            viewport={{once:true}}
         >   
             <img src={url} alt={title} className='md:w-[270px] w-full h-[250px] rounded-[32px] object-cover' />
             <div className='w-full flex justify-between items-center'>

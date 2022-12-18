@@ -11,7 +11,7 @@ const Navbar = () => {
             variants={navVariants}
             initial="hidden"
             whileInView="show"
-            
+            viewport={{once:true}}
          >
             <div className='gradient-pink-navbar absolute'></div>
             <div className='gradient-white-navbar absolute'></div>

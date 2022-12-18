@@ -6,7 +6,12 @@ import { SlideUp, slideIn } from '../utils/motion';
 
 const TheWorld = ({current, setCurrent}) => {
     return (
-        <motion.div initial="hidden" whileInView="visible" className='text-center lg:mb-[200px] sm:mb-[140px] relative'>
+        <motion.div 
+            initial="hidden" 
+            whileInView="visible" 
+            viewport={{once:true}}
+            className='text-center lg:mb-[200px] sm:mb-[140px] relative'
+        >
             <TextItem className="text-gray-500 lg:text-[14px]" title="| The World"/>
             <motion.h1 
                 className='mt-[8px] font-eudoxus font-bold md:text-[64px] text-[40px] text-white text-center'

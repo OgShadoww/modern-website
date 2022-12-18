@@ -8,11 +8,13 @@ const Feedback = () => {
             className='sm:p-16 xs:p-8 px-6 py-12'
             initial='hidden'
             whileInView="visible"
+            viewport={{once:true}}
         >
             <div className='2xl:max-w-[1280px] w-full mx-auto flex lg:flex-row flex-col gap-6'>
                 <motion.div
                     className='flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-01 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative'
                     variants={planerVariants('left', false)}
+                    viewport={{once:true}}
                 >
                     <div className='feedback-gradient'>
 
@@ -32,6 +34,7 @@ const Feedback = () => {
                 <motion.div 
                     className='relative flex-1 flex justify-center items-center'
                     variants={planerVariants('rigth', false)}
+                    viewport={{once:true}}
                 >
                     <img src="https://metaverse-sage-psi.vercel.app/assets/planet-09.cee4529b.png" className='w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]' alt="" />
                     <div className='lg:block hidden absolute -left-[10%] top-[3%]'>

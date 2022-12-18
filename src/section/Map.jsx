@@ -9,6 +9,7 @@ const Map = () => {
             className='sm:p-16 xs:p-8 px-6 py-12 relative z-10'
             initial="hidden"
             whileInView="visible"
+            viewport={{once:true}}
         >
             <div className='2xl:max-w-[1280px] w-full mx-auto flex flex-col'>
                 <TextItem className="text-gray-500 text-center" title="| People on the World"/>

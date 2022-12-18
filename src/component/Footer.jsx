@@ -8,6 +8,7 @@ const Footer = () => {
             className='sm:px-16 px-6 py-8 relative'
             initial="hidden"
             whileInView="show"
+            viewport={{once:true}}
             variants={footerVariants}
         >
             <div className='footer-gradient'></div>

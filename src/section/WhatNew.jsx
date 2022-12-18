@@ -9,6 +9,7 @@ const WhatNew = () => {
             className='sm:p-16 xs:p-8 px-6 py-12 relative z-10'
             initial='hidden'
             whileInView='visible'
+            viewport={{once:true}}
         >
            <div className='2xl:max-w-[1280px] w-full mx-auto flex lg:flex-row flex-col gap-8'>
                 <motion.div variants={planerVariants('left', false)} className='flex-[0.95] flex justify-center flex-col'>

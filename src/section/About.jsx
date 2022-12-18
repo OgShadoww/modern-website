@@ -7,9 +7,10 @@ import TextItem from '../component/TextItem';
 const About = () => {
     return (
         <motion.div 
-            className='flex flex-col text-center justify-center items-center relative mb-[200px]'
+            className='flex flex-col text-center justify-center items-center relative mb-[300px]'
             initial="hidden"
             whileInView="visible"
+            viewport={{once:true}}
         >
             <TextItem className="text-gray-500 mb-[20px] lg:text-[14px]" title="| About Metaverse"/>
             <motion.span 
