@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/modern-website/static/css/main.916cee9f.css",
+    "main.js": "/modern-website/static/js/main.912688b4.js",
+    "index.html": "/modern-website/index.html",
+    "main.916cee9f.css.map": "/modern-website/static/css/main.916cee9f.css.map",
+    "main.912688b4.js.map": "/modern-website/static/js/main.912688b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.916cee9f.css",
+    "static/js/main.912688b4.js"
+  ]
+}
