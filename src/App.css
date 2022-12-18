@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Eudoxus Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 70px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-primary-black {
+  background-color: rgb(26 35 46);
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.gradient-pink-navbar {
+  background: #D225E1;
+  filter: blur(125px);
+  position: absolute;
+  left: 0;
+  top: -300px;
+  width: 400px;
+  height: 400px;
 }
 
-.App-link {
-  color: #61dafb;
+.gradient-white-navbar {
+  background: #CFECFD;
+  filter: blur(50px);
+  top: -100px;
+  position: absolute;
+  width: 100px;
+  height: 248px;
+  left: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gradient-blue-navbar {
+  background: #2565E1;
+  filter: blur(125px);
+  position: absolute;
+  height: 400px;
+  width: 300px;
+  left: 300px;
+  top: -300px;
+}
+
+.gradient-green-about {
+  position: absolute;
+  width: 200px;
+  height: 438px;
+  top: 0px;
+  right: 0px;
+  background: #7aebfb;
+  filter: blur(190px);
+}
+
+.gradient-blue-about {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background: #2565E1;
+  filter: blur(125px);
+  top: -250px;
+  right: 0;
+  transform: rotate(-78.79deg);
+}
+
+.gradient-center-about {
+  position: absolute;
+  width: 304px;
+  left: 30%;
+  top: 10%;
+  background: rgba(149, 66, 232, 0.35);
+  filter: blur(125px);
+  transform: rotate(-114.2deg);
+}
+
+.gradient-blue-the-world {
+  position: absolute;
+  width: 304px;
+  height: 300px;
+  left: 0;
+  top: 90%;
+  background: #2565E1;
+  filter: blur(125px);
+  transform: rotate(68.81deg);
+  
+}
+
+.gradient-blue-center {
+  position: absolute;
+  width: 304px;
+  height: 100vh;
+  left: 30%;
+  top: 20%;
+  background: rgba(45, 72, 152, 0.75);
+  filter: blur(125px);
+  transform: rotate(-53.13deg);
+}
+
+.gradient-02 {
+  background: linear-gradient(97.86deg,#a509ff 0%,#34acc7 53.65%,#a134c7 100%);
+}
+
+.feedback-gradient {
+  position: absolute;
+  width: 200px;
+  height: 316px;
+  left: 0px;
+  top: 0px;
+
+  background: #8d39a3;
+  filter: blur(175px);
+}
+
+.footer-gradient {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 37%;
+  bottom: 0;
+
+  background: #65c4fa;
+  filter: blur(150px);
 }
