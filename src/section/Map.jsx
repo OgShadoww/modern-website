@@ -1,7 +1,7 @@
 import React from 'react';
 import TextItem from '../component/TextItem';
 import {motion} from 'framer-motion'
-import { SlideUp } from '../utils/motion';
+import { mapAnim, SlideUp } from '../utils/motion';
 
 const Map = () => {
     return (
@@ -21,7 +21,7 @@ const Map = () => {
                 </motion.div>
                 <motion.div 
                     className='relative mt-[68px] flex w-full h-[550px]'
-                    variants={SlideUp(0, 400)}
+                    variants={mapAnim}
                 >
                     <img src="https://metaverse-sage-psi.vercel.app/assets/map.407234c2.png" className='w-full h-full object-cover' alt="" />
                     <div className='absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]'>

@@ -21,7 +21,7 @@ export const navVariants = {
 export const SlideUp = (delay, speed) => ({
   hidden: {
     opacity:0,
-    y:100
+    y:150
   },
   visible: {
     opacity:1,
@@ -139,6 +139,26 @@ export const slideUp = {
     transition: {
       type:'spring',
       duration:1.4
+    }
+  }
+}
+export const mapAnim = {
+  hidden: {
+    y:400,
+    opacity:0,
+    transition: {
+      type: 'spring',
+      stiffness: 300,
+      damping: 140,
+    }
+  },
+  visible: {
+    y:0,
+    opacity:1,
+    transition: {
+      type: 'spring',
+      stiffness: 300,
+      damping: 140,
     }
   }
 }
